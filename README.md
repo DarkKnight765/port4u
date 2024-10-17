@@ -1,2 +1,2 @@
-# port4u
-[Sem 1 Project: Web Development] Platform to create your own personal portfolio in just 3 clicks!
+# PORT4U - Portfolio For You
+[Sem 1 Project: Web Development] Platform to create a Remarkable Portfolio that Speaks for You!

@@ -20,7 +20,6 @@ body {
     line-height: 1.6;
 }
 
-
 /* Navbar Styles */
 .navbar {
     width: 100%;
@@ -51,6 +50,12 @@ body {
 .logo a img {
     height: 8vh;
     border-radius: 50%;
+}
+
+@media (min-width: 769px) {
+    .openbtn, .closebtn {
+        display: none;
+    }
 }
 
 .nav-links {

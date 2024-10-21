@@ -23,6 +23,7 @@
 
     .navbar {
         height: 8vh;
+        padding: 1rem 0;
     }
 
     .logo a img {
@@ -44,10 +45,11 @@
         /* width: 0; */
         /* display: none; */
         width: 100vw;
-        height: 88vh;
+        height: 100vh;
         display: none;
         position: absolute;
         top: 0;
+        left: 0;
         background-color: rgba(42, 42, 44, 0.8);
         text-align: center;
         font-size: 5rem;
@@ -71,23 +73,15 @@
     /* hero-section */
 
     .hero {
-        height: 80vh;
+        height: 92vh;
     }
 
     .hero-content {
         width: 100%;
     }
 
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
     .hero-illustration {
         display: none;
-    }
-
-    .cta-btn {
-        font-size: 1rem;
     }
 
     .feature {

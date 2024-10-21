@@ -1,3 +1,11 @@
+function openNav() {
+    document.querySelector(".nav-links").style.display = "grid";
+}
+
+function closeNav() {
+    document.querySelector(".nav-links").style.display = "none";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const features = document.querySelectorAll(".feature");
 

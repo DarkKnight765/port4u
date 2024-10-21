@@ -23,23 +23,22 @@
         <title>PORT4U - Portfolio For You</title>
         <link rel="stylesheet" href="./assets/styles/style.css" />
         <link rel="stylesheet" href="./assets/styles/styles-mobile.css" media="(max-width: 768px)"> 
-        <script defer src="./assets/script/script.js"></script>
     </head>
     <body>
         <nav class="navbar">
             <div class="container">
                 <div class="logo">
-                    <a href="#">
+                    <a href="#" onClick="window.location.reload()">
                         <img src="./assets/img/logo.png" alt="">
                     </a>
                 </div>
                 <button class="hamburger-menu openbtn" onclick="openNav()">☰</button>
                 <ul class="nav-links">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="./templates.html">Templates</a></li>
-                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#" onClick="window.location.reload()">Home</a></li>
+                    <li><a href="#features" onclick="closeNav()">Features</a></li>
+                    <li><a href="./templates.html" onclick="closeNav()">Templates</a></li>
+                    <li><a href="#about" onclick="closeNav()">About Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -73,8 +72,7 @@
                 <div class="feature-content">
                     <h2>Portfolio of <span>Your</span> Choice</h2>
                     <p>
-                        Choose from a variety of beautiful, professionally
-                        designed templates that can be tailored to your needs.
+                        Choose from a variety of beautiful, professionally designed templates that can be tailored to your needs.
                     </p>
                 </div>
             </div>
@@ -100,8 +98,7 @@
                         every screen size
                     </h2>
                     <p>
-                        Your portfolio will look stunning on any device, whether
-                        on a mobile, tablet or laptop.
+                        Your portfolio will look stunning on any device, whether on a mobile, tablet or laptop.
                     </p>
                 </div>
             </div>
@@ -140,5 +137,7 @@
                 <p>&copy; 2024 PORT4U. All Rights Reserved.</p>
             </div>
         </footer>
+
+        <script defer src="./assets/script/script.js"></script>
     </body>
 </html>

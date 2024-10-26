@@ -5,7 +5,9 @@ Platform to create a Remarkable Portfolio that Speaks for You! [Sem 1 Project: W
 
 ## Features
 [ ] Choice of templates. [Multiple Designs, Responsive and Proffesional]
+
 [ ] Form to enter data.
+
 [ ] Publish it to the Web.
 
 ## Contributors

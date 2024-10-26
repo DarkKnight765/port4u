@@ -4,13 +4,13 @@
     --dark-blue: #003471;
     --purple: #5c43a9;
     --green: #01e7b8;
-    scroll-behavior: smooth;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -247,10 +247,13 @@ body {
 }
 
 .footer-info h3,
-.footer-contact h3,
-.footer-social h3 {
+.footer-contact h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+}
+
+.footer-social h3 {
+    font-size: 1.8rem;
 }
 
 .footer-info p,
@@ -264,7 +267,7 @@ body {
 }
 
 .footer-social .social-links a img {
-    height: 4vh;
+    height: 7vh;
 }
 
 .footer-bottom {

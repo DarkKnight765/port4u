@@ -3,7 +3,9 @@ function openNav() {
 }
 
 function closeNav() {
-    document.querySelector(".nav-links").style.display = "none";
+    if (screen.width <= 768) {
+        document.querySelector(".nav-links").style.display = "none";
+    }
 }
 
 document.addEventListener("DOMContentLoaded", () => {

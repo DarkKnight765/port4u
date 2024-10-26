@@ -5,14 +5,14 @@
     --dark-blue: #003471;
     --purple: #5c43a9;
     --green: #01e7b8;
-    scroll-behavior: smooth;
-    font-family: "Helvetica", sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Helvetica", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -36,7 +36,7 @@
         font-weight: 900;
         background-color: transparent;
         border: none;
-        font-size: 6vh;
+        font-size: 5vh;
         color: var(--white);
         margin-right: 1.5rem;
     }
@@ -45,7 +45,7 @@
         /* width: 0; */
         /* display: none; */
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
         display: none;
         position: absolute;
         top: 0;
@@ -53,6 +53,7 @@
         background-color: rgba(42, 42, 44, 0.8);
         text-align: center;
         font-size: 5rem;
+        backdrop-filter: blur(3px);
     }
 
     .nav-links li a {

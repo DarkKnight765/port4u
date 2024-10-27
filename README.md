@@ -4,11 +4,11 @@
 Platform to create a Remarkable Portfolio that Speaks for You! [Sem 1 Project: Web Development]
 
 ## Features
-[ ] Choice of templates. [Multiple Designs, Responsive and Proffesional]
+&#9725; Choice of templates. [Multiple Designs, Responsive and Proffesional]
 
-[ ] Form to enter data.
+&#9632; Form to enter data.
 
-[ ] Publish it to the Web.
+&#9725; Publish it to the Web.
 
 ## Contributors
 * [Varun Baisane](https://github.com/varunbaisane)

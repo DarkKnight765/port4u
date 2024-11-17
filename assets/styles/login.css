@@ -45,7 +45,7 @@ body {
 .right-section {
     width: 40%;
     padding: 4%;
-    background-color: rgba(252, 209, 100, 0.945);
+    background-color: var(--white);
     color: var(--blue);
     border-radius: 4%;
 }

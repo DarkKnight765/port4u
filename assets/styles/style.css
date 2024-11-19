@@ -302,25 +302,3 @@ body {
         transform: translateX(0);
     }
 }
-
-/* Responsive Design */
-/* @media (max-width: 768px) {
-    .hero-content {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .hero-illustration img {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    .feature {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .feature-illustration img {
-        width: 80%;
-    }
-} */
